@@ -2,7 +2,7 @@
 %global gitrev 6cfcad
 Name:           urlview
 Version:        0.9
-Release:        13.%{gitdate}git%{gitrev}%{?dist}
+Release:        15.%{gitdate}git%{gitrev}%{?dist}
 Summary:        URL extractor/launcher
 
 Group:          Applications/Internet
@@ -50,6 +50,12 @@ echo '.so man1/urlview.1' > $RPM_BUILD_ROOT%{_mandir}/man1/url_handler.sh.1
 %{_mandir}/man5/urlview.conf.5*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.9-15.20121210git6cfcad
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.9-14.20121210git6cfcad
+- Mass rebuild 2013-12-27
+
 * Fri May 24 2013 Miroslav Lichvar <mlichvar@redhat.com> 0.9-13.20121210git6cfcad
 - add man page link for url_handler.sh
 - fix default paths in man page
