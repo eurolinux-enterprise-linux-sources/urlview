@@ -1,3 +1,4 @@
-# ELS - Enterprise Linux/EuroLinux Sources - urlview 
+# ELS - Enterprise Linux/EuroLinux Sources - urlview
+ 
 ## Usage:
-  Checkout branch or tag.
+  Checkout branch or tag. Use `make sources` to recreate  SOURCE0 archive.
